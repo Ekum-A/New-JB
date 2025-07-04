@@ -1,0 +1,436 @@
+*{
+padding: o;
+margin: 0;
+box-sizing: border-box;
+}
+
+.navbar-brand{
+  font-size: 1.1rem;
+  color: darkgreen;
+
+}
+
+
+.nav-link{
+  color: darkgreen;
+  font-size: 1rem;
+}
+
+
+.nav-item{
+  padding-left: 40px;
+}
+
+
+.hero {
+  background-color: #1f4a40;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.btn-g {
+  background-color: #1a582a;
+  color: #fff;
+  border: none;
+}
+
+.btn-white {
+  background-color: #fff;
+  color: #1f4a40;
+  border: 1px solid #1f4a40;
+}
+
+@media (max-width: 767px) {
+  .hero {
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+}
+
+.trusted-employers {
+  background-color: #1f4a40;
+}
+
+.company-logo {
+  max-width: 100%;
+  height: 50px;
+  object-fit: contain;
+  filter: brightness(0) invert(1); 
+  transition: transform 0.3s ease;
+}
+
+.company-logo:hover {
+  transform: scale(1.1);
+}
+
+
+
+
+.hero-section {
+      padding: 60px 0;
+      background-color: #dbe7e0;
+    }
+
+    .hero-img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .btn-green {
+      background-color: #28a745;
+      color: white;
+      border: none;
+    }
+
+    .btn-white {
+      background-color: white;
+      border: 1px solid #ccc;
+      color: #333;
+    }
+
+    .stats .number {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    .trusted-logos img {
+      height: 30px;
+      margin: 0 10px;
+      filter: grayscale(1);
+    }
+
+    @media (max-width: 767px) {
+      .hero-text {
+        text-align: center;
+      }
+
+      .trusted-logos {
+        justify-content: center !important;
+      }
+
+      .stats {
+        justify-content: center;
+        text-align: center;
+      }
+    }
+.job-card {
+      border: 1px solid wheat;;
+      border-radius: 10px;
+      padding: 20px;
+      max-width: 320px;
+      margin: auto;
+      transition: all 0.3s ease;
+    }
+
+    .job-card:hover {
+      box-shadow: 0 4px 20px rgba(38, 65, 22, 0.2);
+      border-color: darkgreen
+    }
+
+    .apply-btn {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    @media (max-width: 767px) {
+      .job-card {
+        max-width: 100%;
+      }
+    }
+
+   
+    .category{
+      background-color:whitesmoke;
+    }
+
+
+
+    .jobs-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.jobs-title {
+    font-size: 28px;
+    color: #2c3e50;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.jobs-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.job-card {
+    background-color: #fafafa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.job-card:hover {
+    transform: translateY(-5px);
+}
+
+.job-header {
+    background-color: #3498db;
+    color: white;
+    padding: 15px 20px;
+}
+
+.job-card.part-time .job-header {
+    background-color: #e67e22;
+}
+
+.job-card.full-time .job-header {
+    background-color: #2ecc71;
+}
+
+.job-content {
+    padding: 20px;
+}
+
+.job-company {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.job-location {
+    font-size: 14px;
+    margin: 5px 0 0;
+    opacity: 0.9;
+}
+
+.job-title {
+    font-size: 20px;
+    color: #2c3e50;
+    margin: 10px 0 5px;
+}
+
+.job-type {
+    color: #7f8c8d;
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.job-salary {
+    font-size: 18px;
+    color: #27ae60;
+    font-weight: bold;
+    margin: 10px 0 5px;
+}
+
+.job-posted {
+    font-size: 13px;
+    color: #95a5a6;
+    margin: 5px 0 0;
+}
+
+.card-hover {
+    transition: all 0.3s ease;
+  }
+
+  .card-hover:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-color: darkgreen
+  }
+
+  .card-icon {
+    color: #28a745;
+     margin-right: 8px;
+   
+  }
+
+  .card{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    background-color: #fafafa;
+  }
+
+  .logo{
+    width: 40px;
+  }
+
+  .icon-text {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+    }
+    .icon-text i {
+      font-size: 24px;
+      color: #28a745; /* green icon */
+    }
+    .section {
+      padding: 30px 0;
+    }
+    .image-col img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    @media (min-width: 768px) {
+  .custom-img {
+    max-height: 500px;
+  }
+}
+
+.career-tips {
+  background-color: #1f4a40
+}
+
+.blog-card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.blog-card h5 {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.blog-card .btn {
+  font-size: 0.9rem;
+}
+
+
+/*************blog-section**********/
+    body {
+      background-color: #f8f9fa;
+    }
+
+    .blog-header {
+      background-color: #1f4a40;
+      color: #fff;
+      padding: 3rem 0;
+      text-align: center;
+    }
+
+    .blog-card img {
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .blog-card h5 {
+      font-size: 1.2rem;
+      font-weight: 600;
+    }
+
+    .blog-card .card-text {
+      font-size: 0.95rem;
+    }
+
+
+
+    /***********about section**************/
+    /* about.css */
+
+.about-hero {
+  background-color: #1f4a40;
+  color: white;
+  padding: 60px 0;
+}
+
+.section-title {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.icon-circle {
+  background-color: #e9f5f2;
+  border-radius: 50%;
+  padding: 20px;
+  display: inline-block;
+  font-size: 24px;
+  color: #1f4a40;
+}
+
+.cta-section {
+  background-color: #1f4a40;
+}
+.mission-section .check-icon {
+  width: 32px;
+  height: 32px;
+  background-color: #e9f5f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.check-icon {
+  width: 32px;
+  height: 32px;
+  background-color: #e9f5f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.feature-icon,
+.feature-icon-2 {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 767px) {
+  .feature-img {
+    max-height: 300px;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  footer {
+    margin-left: 0;
+  }
+}
+/*********login css**************/
+.box-area{
+  width: 930px;
+}
+
+.right-box{
+  padding: 40px 30px 40px 40px;
+}
+
+::placeholder{
+  font-size: 16px;
+
+}
+
+@media only screen and (max-width: 768px){
+
+   .box-area{
+    margin: 0 10px;
+   }
+ .left-box{
+  height: 10px;
+  overflow: hidden;
+ }
+
+ .right-box{
+  padding: 20px;
+ }
+
+}
+  

@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Career Tips & Advice - Blog</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="style.css">
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg bg-light py-3">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">Happyjob</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link fw-bold" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fw-bold" href="about.html">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fw-bold" href="Findjobs.html">Find Jobs</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fw-bold" href="blog.html">Our Blog</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link fw-bold" href="#">Contact</a>
+        </li>
+      </ul>
+        <a href="login.html" class="btn btn-outline-success">Login</a>
+      </form>
+    </div>
+  </div>
+</nav>
+
+  <header class="blog-header">
+    <h1>Career Tips & Advice</h1>
+    <p>Your guide to job success, interviews, resumes, and more.</p>
+  </header>
+   <section class="py-4 bg-light">
+  <div class="container">
+    <form class="row g-2 align-items-center justify-content-center">
+      <div class="col-md-6">
+        <input type="text" id="searchInput" class="form-control" placeholder="Search blog posts...">
+      </div>
+      <div class="col-md-3">
+        <select id="categoryFilter" class="form-select">
+          <option value="">All Categories</option>
+          <option value="Career Tips">Career Tips</option>
+          <option value="Job Search">Job Search</option>
+          <option value="Interview">Interview</option>
+        </select>
+      </div>
+      <div class="col-md-2">
+        <button type="button" class="btn btn-success w-100" onclick="filterBlogs()">Search</button>
+      </div>
+    </form>
+  </div>
+</section>
+
+  <!-- Blog Grid -->
+  <main class="container py-5">
+    <div class="row g-4">
+
+      <!-- Blog 1 -->
+      <div class="col-md-4" data-category="Career Tips">
+        <div class="card blog-card h-100">
+          <img src="img/main image.jpg" class="card-img-top" alt="Resume Tips">
+          <div class="card-body">
+            <h5 class="card-title">How to Write a Job-Winning Resume</h5>
+            <p class="card-text">Learn how to structure and highlight your experience to stand out from the crowd.</p>
+            <button class="btn btn-outline-success mt-2" data-bs-toggle="modal" data-bs-target="#modalResume">Read More</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Blog 2 -->
+      <div class="col-md-4">
+        <div class="card blog-card h-100">
+          <img src="img/vision-img.jpeg" class="card-img-top" alt="Interview Prep">
+          <div class="card-body">
+            <h5 class="card-title">Top 10 Interview Questions & Answers</h5>
+            <p class="card-text">Prepare like a pro with answers to the most commonly asked questions in interviews.</p>
+            <button class="btn btn-outline-success mt-2" data-bs-toggle="modal" data-bs-target="#modalInterview">Read More</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Blog 3 -->
+      <div class="col-md-4">
+        <div class="card blog-card h-100">
+          <img src="img/main image.jpg" class="card-img-top" alt="Remote Jobs">
+          <div class="card-body">
+            <h5 class="card-title">Finding Legit Remote Work in 2025</h5>
+            <p class="card-text">Explore trustworthy platforms and tips for getting hired for remote roles.</p>
+            <button class="btn btn-outline-success mt-2" data-bs-toggle="modal" data-bs-target="#modalRemote">Read More</button>
+          </div>
+        </div>
+      </div>
+
+     <div class="col-md-4">
+        <div class="card blog-card h-100">
+          <img src="img/main image.jpg" class="card-img-top" alt="Remote Jobs">
+          <div class="card-body">
+            <h5 class="card-title">Finding Legit Remote Work in 2025</h5>
+            <p class="card-text">Explore trustworthy platforms and tips for getting hired for remote roles.</p>
+            <button class="btn btn-outline-success mt-2" data-bs-toggle="modal" data-bs-target="#modalRemote">Read More</button>
+          </div>
+        </div>
+      </div>
+
+
+    <div class="col-md-4">
+        <div class="card blog-card h-100">
+          <img src="img/vision-img.jpeg" class="card-img-top" alt="Remote Jobs">
+          <div class="card-body">
+            <h5 class="card-title">Finding Legit Remote Work in 2025</h5>
+            <p class="card-text">Explore trustworthy platforms and tips for getting hired for remote roles.</p>
+            <button class="btn btn-outline-success mt-2" data-bs-toggle="modal" data-bs-target="#modalRemote">Read More</button>
+          </div>
+        </div>
+      </div>
+
+
+   <div class="col-md-4">
+        <div class="card blog-card h-100">
+          <img src="img/vision-img.jpeg" class="card-img-top" alt="Remote Jobs">
+          <div class="card-body">
+            <h5 class="card-title">Finding Legit Remote Work in 2025</h5>
+            <p class="card-text">Explore trustworthy platforms and tips for getting hired for remote roles.</p>
+            <button class="btn btn-outline-success mt-2" data-bs-toggle="modal" data-bs-target="#modalRemote">Read More</button>
+          </div>
+        </div>
+      </div>
+
+
+
+
+    </div>
+  </main>
+
+  <!-- Resume Modal -->
+  <div class="modal fade" id="modalResume" tabindex="-1" aria-labelledby="resumeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="resumeModalLabel">How to Write a Job-Winning Resume</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>A great resume grabs attention in seconds. Here are key tips:</p>
+          <ul>
+            <li><strong>Tailor it:</strong> Customize for the specific job you're applying for.</li>
+            <li><strong>Use bullet points:</strong> Keep it clear and concise.</li>
+            <li><strong>Highlight achievements:</strong> Not just responsibilities.</li>
+            <li><strong>Keep it clean:</strong> Use easy-to-read fonts and consistent formatting.</li>
+          </ul>
+          <p>Keep your resume ideally one page long unless you have 10+ years of experience. Always include a link to your portfolio or LinkedIn if possible.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Interview Modal -->
+  <div class="modal fade" id="modalInterview" tabindex="-1" aria-labelledby="interviewModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="interviewModalLabel">Top 10 Interview Questions & Answers</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <ol>
+            <li><strong>Tell me about yourself:</strong> Give a short summary of your professional background.</li>
+            <li><strong>Why do you want this job?</strong> Connect your skills to the job description.</li>
+            <li><strong>What are your strengths?</strong> Choose 2–3 relevant to the role.</li>
+            <li><strong>What’s your greatest weakness?</strong> Be honest but show how you're improving it.</li>
+            <li><strong>Tell me about a challenge and how you handled it.</strong></li>
+            <li><strong>Where do you see yourself in 5 years?</strong></li>
+            <li><strong>Why should we hire you?</strong></li>
+            <li><strong>Tell me about a time you worked in a team.</strong></li>
+            <li><strong>How do you handle pressure?</strong></li>
+            <li><strong>Do you have any questions for us?</strong></li>
+          </ol>
+          <p>Practice answers using the STAR method: Situation, Task, Action, Result.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Remote Modal -->
+  <div class="modal fade" id="modalRemote" tabindex="-1" aria-labelledby="remoteModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="remoteModalLabel">Finding Legit Remote Work in 2025</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Remote work is booming—but beware of scams. Here are tips for landing legit remote jobs:</p>
+          <ul>
+            <li>Use trusted sites like <strong>Upwork, LinkedIn, FlexJobs, and Remote OK</strong>.</li>
+            <li>Never pay upfront for job offers.</li>
+            <li>Build a professional LinkedIn profile and personal brand.</li>
+            <li>Keep your portfolio up to date with samples of your work.</li>
+          </ul>
+          <p>Bonus tip: Set up a productive work environment at home to stay efficient and focused.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+  function filterBlogs() {
+    const searchValue = document.getElementById("searchInput").value.toLowerCase();
+    const category = document.getElementById("categoryFilter").value;
+
+    const cards = document.querySelectorAll(".blog-card");
+
+    cards.forEach(card => {
+      const title = card.querySelector("h5").innerText.toLowerCase();
+      const cat = card.getAttribute("data-category");
+
+      const matchesSearch = title.includes(searchValue);
+      const matchesCategory = !category || category === cat;
+
+      if (matchesSearch && matchesCategory) {
+        card.style.display = "block";
+      } else {
+        card.style.display = "none";
+      }
+    });
+  }
+</script>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
