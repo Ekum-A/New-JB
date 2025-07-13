@@ -2,6 +2,7 @@
 padding: o;
 margin: 0;
 box-sizing: border-box;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .navbar-brand{
@@ -63,9 +64,6 @@ box-sizing: border-box;
 .company-logo:hover {
   transform: scale(1.1);
 }
-
-
-
 
 .hero-section {
       padding: 60px 0;
@@ -145,8 +143,6 @@ box-sizing: border-box;
     .category{
       background-color:whitesmoke;
     }
-
-
 
     .jobs-container {
     max-width: 1200px;
@@ -268,7 +264,7 @@ box-sizing: border-box;
     }
     .icon-text i {
       font-size: 24px;
-      color: #28a745; /* green icon */
+      color: #28a745;
     }
     .section {
       padding: 30px 0;
@@ -304,7 +300,27 @@ box-sizing: border-box;
 }
 
 
-/*************blog-section**********/
+.card:hover {
+  transform: translateY(-5px);
+  transition: 0.3s ease-in-out;
+}
+
+    .job-label {
+      font-size: 0.75rem;
+      font-weight: bold;
+      background-color: #fff;
+      color: #333;
+      padding: 0.25rem 0.75rem;
+      border-radius: 10px;
+      display: inline-block;
+    }
+
+    .text-small {
+      font-size: 0.875rem;
+    }
+
+
+/*************homepage blog-section**********/
     body {
       background-color: #f8f9fa;
     }
@@ -330,6 +346,45 @@ box-sizing: border-box;
       font-size: 0.95rem;
     }
 
+/*******testimonial carrousel**************/
+.carousel-control-prev,
+.carousel-control-next {
+  width: 40px;
+  height: 17px;
+  border-radius: 50%;
+  padding: 6px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+/*******footer*****/
+.custom-footer{
+  padding-top: 10rem;
+  padding-bottom: 20rem;
+}
+
+
+.footer-links li {
+  list-style-type: disc;        
+  margin-left: 1rem;           
+  color: white; 
+  padding: 5px;
+  font-weight: 600;               
+}
+
+.footer-links a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.footer-links a:hover {
+  transform: translateX(4px) scale(1.05);
+  color: #1f4a40;
+}
+
 
 
     /***********about section**************/
@@ -347,7 +402,7 @@ box-sizing: border-box;
 }
 
 .icon-circle {
-  background-color: #e9f5f2;
+  background-color: #dbe7e0;
   border-radius: 50%;
   padding: 20px;
   display: inline-block;
@@ -361,11 +416,15 @@ box-sizing: border-box;
 .mission-section .check-icon {
   width: 32px;
   height: 32px;
-  background-color: #e9f5f2;
+  background-color: #dbe7e0;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+.mission-section{
+  background-color:#dbe7e0 ;
+}
+
 
 .icon-circle {
   width: 50px;
@@ -391,6 +450,28 @@ box-sizing: border-box;
   align-items: center;
   justify-content: center;
 }
+
+.timeline-horizontal {
+  gap: 2rem;
+}
+
+
+.timeline-item {
+  width: 150px;
+  position: relative;
+  z-index: 1;
+}
+
+.timeline-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 
 @media (max-width: 767px) {
   .feature-img {
@@ -434,3 +515,61 @@ box-sizing: border-box;
 
 }
   
+/*********Contact*************/
+.contact{
+  
+  background-color: #dbe7e0;
+  padding: 50px;
+  text-align: center;
+}
+
+.container-contact{
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+ 
+.contact-wrapper{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap:30px
+}
+.contact-form{
+  text-align: left;
+}
+
+.form-group{
+  margin-bottom: 20px;
+}
+
+input, textarea{
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  background-color: #e5e9ec;
+}
+
+input:focus,
+textarea:focus{
+  outline: none;
+  box-shadow: 0 0 8px #bbb;
+}
+
+.contact-info{
+  text-align: left;
+}
+.contact-info i{
+  color: #1f4a40;
+  margin-right: 10px;
+}
+
+ @media screen and (max-width: 768px){
+  .container-contact{
+    padding: 20px;
+  }
+
+  .contact-wrapper{
+    grid-template-columns: 1fr;
+  }
+ }

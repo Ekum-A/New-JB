@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>HappyJobs</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
   <link rel="stylesheet" href="style.css">
@@ -12,7 +12,7 @@
   
  <nav class="navbar navbar-expand-lg bg-light py-3">
   <div class="container">
-    <a class="navbar-brand fw-bold" href="#">Happyjob</a>
+    <a class="navbar-brand fw-bold" href="#">HappyJobs</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -31,7 +31,7 @@
           <a class="nav-link fw-bold" href="blog.html">Our Blog</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link fw-bold" href="#">Contact</a>
+          <a class="nav-link fw-bold" href="contact.html">Contact</a>
         </li>
       </ul>
         <a href="login.html" class="btn btn-outline-success">Login</a>
@@ -46,7 +46,7 @@
     <div class="row align-items-center">
       <!-- Left Column -->
       <div class="col-md-6 col-lg-5 text-white mb-4 mb-md-0">
-        <h1 class="fw-bold">Find The Perfect Freelance Services For <br class="d-none d-md-block">Your Business</h1>
+        <h1 class="fw-bold">Find The Perfect <br>Start Up Jobs That Fits You</h1>
         <p class="mt-3">Work with talented people and get the most out of your time and cost.</p>
         <div class="d-flex gap-3 flex-wrap mt-4">
           <button class="btn btn-g px-4">Find Talent</button>
@@ -103,9 +103,9 @@
 
 
     <section class="stats-section py-5 text-white" style="background-color: #dbe7e0;">
-  <div class="container">
+  <div class="container mt-4 mb-4">
     <div class="row text-center justify-content-center g-4">
-      <h2 class="text-centered text-success fw-semi-bold">Empowered to Assist With a Recruiting System. <br> With over 10k Positions Nationwide</h2>
+      <h3 class="text-centered text-success fw-semi-bold">Empowered to Assist With a Recruiting System. <br> With over 10k Positions Nationwide</h3>
       
       <!-- Stat 1 -->
       <div class="col-6 col-md-3">
@@ -116,7 +116,7 @@
       <!-- Stat 2 -->
       <div class="col-6 col-md-3">
         <h2 class="text-success fw-bold display-6">10K+</h2>
-        <p class="mb-0 mt-4 text-success">We ave completed more than 10k Projects wordlwide with 100% Satisfaction</p>
+        <p class="mb-0 mt-4 text-success">We have completed more than 10k Projects wordlwide with 100% Satisfaction</p>
       </div>
 
       <!-- Stat 3 -->
@@ -156,71 +156,88 @@
 </section>
 
 
+<section class="py-5 bg-light" id="featured-jobs">
+  <div class="container mt-5">
+    <h2 class="mb-4 fw-semi-bold text-center text-success"> Featured Jobs</h2>
 
-          <!--------Category-->
-    <!-- Section: Job Categories and Latest Posts -->
-<section class="container py-5">
+    <div class="row g-4">
+      <!-- Job Card -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card shadow-sm h-100 border-0">
+          <div class="card-body">
+            <div class="d-flex align-items-center mb-3">
+              <img src="img/microsoft.png" alt="Company Logo" class="me-3" style="width: 50px;">
+              <div>
+                <h5 class="card-title mb-0 mt-3">Front-End Developer</h5>
+                <small class="text-muted">Zeltechnologies.</small>
+              </div>
+              <span class="badge bg-warning text-dark ms-auto">Trending</span>
+            </div>
+            <p class="card-text text-muted small mb-2"><i class="bi bi-geo-alt-fill me-1 text-success"></i>Remote</p>
+            <p class="card-text small"><strong>$50k - $70k/year</strong></p>
+            <div class="d-flex justify-content-between">
+              <span class="badge bg-success pt-2">Full Time</span>
+              <a href="#" class="btn btn-sm btn-outline-success">Apply Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
 
-  <!-- Title: Popular Job Categories -->
-  <h4 class="text-success text-center fw-semi-bold mb-5">"Popular Job Categories"</h4>
-
-  <!-- Row: Job Category Cards -->
-  <div class="row g-4 justify-content-center">
     
-    <!-- Card 1 -->
-    <div class="col-md-4">
-      <div class="job-card">
-        <div class="d-flex align-items-center gap-2 mb-2">
-          <i class="bi bi-dribbble fs-4 text-success"></i>
-          <span class="fw-semibold">Dribbble</span>
-          <span class="ms-auto text-muted">1hr ago</span>
+      <div class="col-md-6 col-lg-4">
+        <div class="card shadow-sm h-100 border-0">
+          <div class="card-body">
+            <div class="d-flex align-items-center mb-3">
+              <img src="img/Meta.svg" alt="Company Logo" class="me-3" style="width: 50px;">
+              <div>
+                <h5 class="card-title mb-0 mt-3">UI/UX Designer</h5>
+                <small class="text-muted">CreativeLabs</small>
+              </div>
+              <span class="badge bg-success ms-auto">New</span>
+            </div>
+            <p class="card-text text-muted small mb-2"><i class="bi bi-geo-alt-fill me-1 text-success"></i>Lagos, Nigeria</p>
+            <p class="card-text small"><strong>$35k - $55k/year</strong></p>
+            <div class="d-flex justify-content-between">
+              <span class="badge bg-primary pt-2">Part Time</span>
+              <a href="#" class="btn btn-sm btn-outline-success">Apply Now</a>
+            </div>
+          </div>
         </div>
-        <h5 class="fw-bold text-success">UI/UX Designer</h5>
-        <p>We are looking for a passionate frontend developer...</p>
-        <button class="btn btn-outline-success apply-btn">
-          Apply Now <i class="bi bi-arrow-up-right"></i>
-        </button>
       </div>
-    </div>
 
-    <!-- Card 2 -->
-    <div class="col-md-4">
-      <div class="job-card">
-        <div class="d-flex align-items-center gap-2 mb-2">
-          <i class="bi bi-dribbble fs-4 text-success"></i>
-          <span class="fw-semibold">Dribbble</span>
-          <span class="ms-auto text-muted">1hr ago</span>
+      <div class="col-md-6 col-lg-4">
+        <div class="card shadow-sm h-100 border-0">
+          <div class="card-body">
+            <div class="d-flex align-items-center mb-3">
+              <img src="img/microsoft.png" alt="Company Logo" class="me-3" style="width: 50px;">
+              <div>
+                <h5 class="card-title mb-0 mt-3">Front-End Developer</h5>
+                <small class="text-muted">HappyTech Inc.</small>
+              </div>
+              <span class="badge bg-primary text-white ms-auto">Trending</span>
+            </div>
+            <p class="card-text text-muted small mb-2"><i class="bi bi-geo-alt-fill me-1 text-success"></i>Remote</p>
+            <p class="card-text small"><strong>$50k - $70k/year</strong></p>
+            <div class="d-flex justify-content-between">
+              <span class="badge bg-success pt-2">Full Time</span>
+              <a href="#" class="btn btn-sm btn-outline-success">Apply Now</a>
+            </div>
+          </div>
         </div>
-        <h5 class="fw-bold text-success">Frontend Developer</h5>
-        <p>We are looking for a passionate frontend developer...</p>
-        <button class="btn btn-outline-success apply-btn">
-          Apply Now <i class="bi bi-arrow-up-right"></i>
-        </button>
       </div>
-    </div>
 
-    <!-- Card 3 -->
-    <div class="col-md-4">
-      <div class="job-card">
-        <div class="d-flex align-items-center gap-2 mb-2">
-          <i class="bi bi-box fs-4 text-success"></i>
-          <span class="fw-semibold">Dropbox</span>
-          <span class="ms-auto text-muted">1hr ago</span>
-        </div>
-        <h5 class="fw-bold text-success">Backend Engineer</h5>
-        <p>Join our backend team to build scalable systems...</p>
-        <button class="btn btn-outline-success apply-btn">
-          Apply Now <i class="bi bi-arrow-up-right"></i>
-        </button>
-      </div>
     </div>
-
   </div>
+</section>
 
-  <!-- Title: Latest Jobs -->
-  <h1 class="jobs-title text-center text-success fs-4 fw-semi-bold mt-5 mb-4 py-5">Today Latest Job Post</h1>
 
-  <!-- Row: Latest Job Cards -->
+
+        
+    
+<div class="container text-center mt-5">
+  <!-- Section: Latest Jobs -->
+  <h2 class="text-success fs-4 fw-semi-bold mt-5 mb-4 py-5">Today's Latest Job Post</h2>
+
   <div class="row g-4 justify-content-center">
 
     <!-- Card 1 -->
@@ -229,7 +246,7 @@
         <div class="card-body d-flex justify-content-between align-items-center">
           <div>
             <h5 class="card-title mb-1 text-success">
-              <img src="img/logo-design.png" class="logo">Graphic Designer
+              <i class="bi bi-palette-fill me-2"></i>Graphic Designer
             </h5>
             <p class="card-text mb-0 text-muted fs-6">Posted 1 Day Ago</p>
           </div>
@@ -243,8 +260,8 @@
       <div class="card card-hover" style="height: 120px;">
         <div class="card-body d-flex justify-content-between align-items-center">
           <div>
-            <h5 class="card-title mb-1">
-              <img src="img/developer.png" class="logo">Frontend Developer
+            <h5 class="card-title mb-1 text-success">
+              <i class="bi bi-code-slash me-2"></i>Frontend Developer
             </h5>
             <p class="card-text mb-0 text-muted fs-6">Posted 3 Hours Ago</p>
           </div>
@@ -258,8 +275,8 @@
       <div class="card card-hover" style="height: 120px;">
         <div class="card-body d-flex justify-content-between align-items-center">
           <div>
-            <h5 class="card-title mb-1">
-             <img src="img/business-analyst.png" class="logo">Data Analyst
+            <h5 class="card-title mb-1 text-success">
+              <i class="bi bi-clipboard-data-fill me-2"></i>Data Analyst
             </h5>
             <p class="card-text mb-0 text-muted fs-6">Posted 5 Days Ago</p>
           </div>
@@ -274,7 +291,7 @@
         <div class="card-body d-flex justify-content-between align-items-center">
           <div>
             <h5 class="card-title mb-1">
-              <img src="img/sales-manager.png" class="logo">Marketing Manager
+              <i class="bi bi-currency-exchange me-2 text-success"></i>Marketing Manager
             </h5>
             <p class="card-text mb-0 text-muted fs-6">Posted 2 Days Ago</p>
           </div>
@@ -289,7 +306,7 @@
         <div class="card-body d-flex justify-content-between align-items-center">
           <div>
             <h5 class="card-title mb-1">
-              <img src="img/ux-design.png" class="logo">UI/UX Designer
+              <img src="img/ux-design.png" class="logo me-2" alt="UX Design" style="width: 20px;">UI/UX Designer
             </h5>
             <p class="card-text mb-0 text-muted fs-6">Posted 6 Hours Ago</p>
           </div>
@@ -304,7 +321,7 @@
         <div class="card-body d-flex justify-content-between align-items-center">
           <div>
             <h5 class="card-title mb-1">
-              <img src="img/project-manager.png" class="logo">Project Manager
+              <img src="img/project-manager.png" class="logo me-2" alt="Project Manager" style="width: 20px;">Project Manager
             </h5>
             <p class="card-text mb-0 text-muted fs-6">Posted 1 Week Ago</p>
           </div>
@@ -312,55 +329,159 @@
         </div>
       </div>
     </div>
-
   </div>
-</section>
+    <a href="Findjobs.html" class="btn btn-success mt-5">Browse More</a>
+</div>
 
 
-
- <section class="hero-section py-0">
-  <div class="container mb-4 mt-2">
+ <section class="hero-section py-0 mt-5 pt-5">
+  <div class="container mt-2">
     <div class="row align-items-center g-4">
 
-      <!-- Left Column: Image -->
-      <div class="col-md-6 d-flex justify-content-center mt-0">
-        <img src="img/about_img-removebg-preview.png" class="img-fluid pb-0" style="max-height: 500px;" alt="People meeting">
+      <!-- Left Column: Image with Blob Background -->
+      <div class="col-md-6 d-flex justify-content-center">
+        <div class="position-relative" style="width: 420px; height: 420px;">
+          <!-- Blob (behind image) -->
+          <img src="img/blob.png"
+               alt="Blob shape"
+               class="position-absolute top-50 start-50 translate-middle"
+               style="width: 300px; height: 300px; z-index: 0;">
+
+          <!-- Main Image -->
+          <img src="img/about_img-removebg-preview.png"
+               alt="People meeting"
+               class="rounded-circle shadow position-relative img-fluid"
+               style="width: 400px; height: 400px; object-fit: cover; z-index: 1;">
+        </div>
       </div>
 
-      <!-- Right Column: Text -->
+      <!-- Right Column: Text Content -->
       <div class="col-md-6">
-        <h5 class="fw-bold text-success py-5 mt-5">Find Your Dream Job<br>or Top Talent Faster.</h5>
+        <h3 class="fw-bold text-success py-5 mt-5">Find Your Dream Job or<br>Top Talent Faster.</h3>
         <p class="mb-4 text-success">
           Lorem ipsum dolor sit amet consectetur<br>
           adipisicing elit. Labore placeat saepe aliquam<br>
           tempore molestiae ratione fugit<br>
           quibusdam? Accusamus, esse saepe.
         </p>
+
         <ul class="list-unstyled">
-  <li class="mb-3">
-    <i class="bi bi-check-circle me-2 text-success"></i>
-    Fast job matching for professionals
-  </li>
-  <li class="mb-3">
-    <i class="bi bi-check-circle me-2 text-success"></i>
-    Trusted by 10,000+ companies
-  </li>
-  <li class="mb-3">
-    <i class="bi bi-check-circle me-2 text-success"></i>
-    Easy application process in minutes
-  </li>
-</ul>
- <a href="#" class="btn btn-outline-success ms-3 mb-3">Broswe Jobs</a>     
-      
-      
+          <li class="mb-3">
+            <i class="bi bi-check-circle me-2 text-success"></i>
+            Fast job matching for professionals
+          </li>
+          <li class="mb-3">
+            <i class="bi bi-check-circle me-2 text-success"></i>
+            Trusted by 10,000+ companies
+          </li>
+          <li class="mb-3">
+            <i class="bi bi-check-circle me-2 text-success"></i>
+            Easy application process in minutes
+          </li>
+        </ul>
+
+        <a href="#" class="btn btn-outline-success mt-4 mb-5">Browse Jobs</a>
       </div>
 
     </div>
   </div>
 </section>
 
+<section class="py-5" id="our-story" style="background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(40, 84, 74, 0.99)), url('img/mile.png'); background-size: cover; background-position: center;">
+  <div class="container py-5">
+    <div class="timeline-horizontal d-none d-md-flex justify-content-between position-relative">
+      
+      <!-- Timeline Item 1 -->
+      <div class="timeline-item text-center">
+        <div class="timeline-icon bg-primary text-white mx-auto mb-3">
+          <i class="bi bi-rocket-takeoff"></i>
+        </div>
+        <h6 class="fw-bold text-white">2022</h6>
+        <p class="small text-white fs-5">Launched The Platform With Our First 500 Users.</p>
+      </div>
 
+      <!-- Timeline Item 2 -->
+      <div class="timeline-item text-center">
+        <div class="timeline-icon bg-success text-white mx-auto mb-3">
+          <i class="bi bi-people-fill"></i>
+        </div>
+        <h6 class="fw-bold text-white">2023</h6>
+        <p class="small text-white fs-5">Reached 10,000 Job Seekers And 500+ Companies.</p>
+      </div>
 
+      <!-- Timeline Item 3 -->
+      <div class="timeline-item text-center">
+        <div class="timeline-icon bg-warning text-white mx-auto mb-3">
+          <i class="bi bi-globe2"></i>
+        </div>
+        <h6 class="fw-bold text-white">2024</h6>
+        <p class="small text-white fs-5">Expanded Across West Africa, Europe, And America.</p>
+      </div>
+
+      <!-- Timeline Item 4 -->
+      <div class="timeline-item text-center">
+        <div class="timeline-icon bg-danger text-white mx-auto mb-3">
+          <i class="bi bi-lightning-fill"></i>
+        </div>
+        <h6 class="fw-bold text-white">2025</h6>
+        <p class="small text-white fs-5">Introduced AI Job Matching And Resume Tools.</p>
+      </div>
+
+    </div>
+
+    <!-- Mobile version (stacked vertically) -->
+    <div class="d-md-none">
+      <div class="mb-4">
+        <div class="timeline-icon bg-primary text-white mx-auto mb-3">
+          <i class="bi bi-rocket-takeoff"></i>
+        </div>
+        <h6 class="fw-bold  text-white text-center">2022</h6>
+        <p class="small text-white text-center">Launched The Platform With Our First 500 Users.</p>
+      </div>
+      <div class="mb-4">
+        <div class="timeline-icon bg-success text-white mx-auto mb-3">
+          <i class="bi bi-people-fill"></i>
+        </div>
+        <h6 class="fw-bold text-white text-center">2023</h6>
+        <p class="small text-white text-center">Reached 10,000 Job Seekers And 500+ Companies.</p>
+      </div>
+      <div class="mb-4">
+        <div class="timeline-icon bg-warning text-white mx-auto mb-3">
+          <i class="bi bi-globe2"></i>
+        </div>
+        <h6 class="fw-bold text-white text-center">2024</h6>
+        <p class="small text-white text-center">Expanded Across West Africa, Europe, And America.</p>
+      </div>
+      <div>
+        <div class="timeline-icon bg-danger text-white mx-auto mb-3">
+          <i class="bi bi-lightning-fill"></i>
+        </div>
+        <h6 class="fw-bold text-white text-center">2025</h6>
+        <p class="small text-white text-center">Introduced AI Job Matching And Resume Tools.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="py-5 mission-section">
+  <div class="container py-5">
+    <div class="row align-items-center g-5">
+      <div class="col-md-6">
+        <div class="d-flex align-items-center gap-3 mb-3">
+        </div>
+        <h2 class="fw-bold mb-3 text-success">We Help Companies <br>To Find Talents</h2>
+        <p class="text-muted">
+          Our mission is to become Africa’s most trusted <br>and impactful career platform — where ambition meets opportunity,
+          <br>and meaningful employment transforms lives.
+        </p>
+      </div>
+      <div class="col-md-6 text-center">
+        <img src="img/talent.jpg" class="img-fluid rounded-2 shadow-lg" alt="Team discussion" style="max-height: 300px; object-fit: cover;">
+      </div>
+    </div>
+  </div>
+</section>
 
 
 
@@ -378,7 +499,7 @@
 
         <h5 class="fw-bold">Create an account</h5>
         <p class="text-muted fs-6 small">Delivering managed programs across focused industries take over the tedious tasks of risk</p>
-         <a href="#" class="btn btn-outline-success btn-sm">Register</a>
+         
       </div>
 
       <!-- Step 2 -->
@@ -387,7 +508,6 @@
 
         <h5 class="fw-bold">Upload your resume</h5>
         <p class="text-muted fs-6 small">Delivering managed programs across focused industries take over the tedious tasks of risk</p>
-        <a href="#" class="btn btn-outline-success btn-sm">Upload Resume</a>
       </div>
 
       <!-- Step 3 -->
@@ -395,8 +515,7 @@
         <i class="bi bi-check-circle-fill text-success" style="font-size: 2rem;"></i>
         <h5 class="fw-bold">Apply your dream job</h5>
         <p class="text-muted fs-6 small">Delivering managed programs across focused industries take over the tedious tasks of risk</p>
-        <a href="#" class="btn btn-outline-success btn-sm">Apply Now</a>
-
+        
       </div>
 
     </div>
@@ -405,13 +524,13 @@
 
 
 <section class="career-tips py-5">
-  <div class="container">
+  <div class="container pb-5 pt-5 mb-4">
     <h3 class="text-center text-white mb-4">Career Tips & Advice</h3>
     <div class="row g-4">
       
       <!-- Blog Card 1 -->
       <div class="col-md-4">
-        <div class="card h-100 blog-card">
+        <div class="card h-100 mt-2">
           <img src="img/person1.png" class="card-img-top" alt="Resume Tips">
           <div class="card-body">
             <h5 class="card-title">How to Write a Job-Winning Resume</h5>
@@ -423,7 +542,7 @@
 
       <!-- Blog Card 2 -->
       <div class="col-md-4">
-        <div class="card h-100 blog-card">
+        <div class="card h-100 mt-2">
           <img src="img/person2.png" class="card-img-top" alt="Interview Prep">
           <div class="card-body">
             <h5 class="card-title">Top 10 Interview Questions & Answers</h5>
@@ -435,7 +554,7 @@
 
       <!-- Blog Card 3 -->
       <div class="col-md-4">
-        <div class="card h-100 blog-card">
+        <div class="card h-100 mt-2">
           <img src="img/person5.png" class="card-img-top" alt="Remote Jobs">
           <div class="card-body">
             <h5 class="card-title">Finding Legit Remote Work in 2025</h5>
@@ -450,7 +569,7 @@
 </section>
 
 <section class="py-5" style="background: #dbe7e0;">
-  <div class="container text-center">
+  <div class="container text-center mt-4 mb-4">
     <h2 class="fw-bold mb-4 text-success">What Our Users say</h2>
     <p class="text-muted mb-5">Trusted by thousands of professionals and businesses worldwide</p>
 
@@ -534,61 +653,64 @@
 </section>
 
 
-<footer class="bg-white text-dark py-5 border-top">
-  <div class="container">
-    <div class="row g-4">
+<footer class=" custom-footer bg-dark text-white py-5 ">
+  <div class="container pt-5 mt-4">
+    <div class="row g-5">
 
-      <!-- About -->
+      <!-- Brand & Description -->
       <div class="col-md-4">
-        <h5 class="fw-bold">HappyJobs</h5>
-        <p class="small text-muted">Connecting talents with top companies around the world. Fast, easy, and reliable job matching.</p>
+        <h5 class="fw-bold mb-3">HappyJobs</h5>
+        <p class="fs-6">Helping people find purpose-driven work by connecting them with trusted employers across Africa and beyond.</p>
+        <div class="d-flex gap-3 mt-3">
+          <a href="#"><i class="bi bi-facebook text-white fs-5"></i></a>
+          <a href="#"><i class="bi bi-twitter text-white fs-5"></i></a>
+          <a href="#"><i class="bi bi-linkedin text-white fs-5"></i></a>
+          <a href="#"><i class="bi bi-instagram text-white fs-5"></i></a>
+        </div>
       </div>
 
-      <!-- Links -->
+      <!-- Quick Links -->
       <div class="col-md-2">
-        <h6 class="fw-bold mb-3">Company</h6>
-        <ul class="list-unstyled small">
-          <li><a href="#" class="text-decoration-none text-muted">About Us</a></li>
-          <li><a href="#" class="text-decoration-none text-muted">Careers</a></li>
-          <li><a href="#" class="text-decoration-none text-muted">Blog</a></li>
-          <li><a href="#" class="text-decoration-none text-muted">Contact</a></li>
+        <h6 class="text-uppercase fw-bold mb-3">Explore</h6>
+        <ul class="list-unstyled footer-links small">
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
         </ul>
+
       </div>
 
-      <!-- Support -->
+      <!-- Resources -->
       <div class="col-md-2">
-        <h6 class="fw-bold mb-3">Support</h6>
-        <ul class="list-unstyled small">
-          <li><a href="#" class="text-decoration-none text-muted">Help Center</a></li>
-          <li><a href="#" class="text-decoration-none text-muted">Terms of Use</a></li>
-          <li><a href="#" class="text-decoration-none text-muted">Privacy Policy</a></li>
+        <h6 class="text-uppercase fw-bold mb-3">Support</h6>
+        <ul class="list-unstyled footer-links small">
+          <li><a href="#">Help Center</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Use</a></li>
         </ul>
       </div>
 
       <!-- Newsletter -->
       <div class="col-md-4">
-        <h6 class="fw-bold mb-3">Subscribe</h6>
+        <h6 class="text-uppercase fw-bold mb-3">Stay Updated</h6>
+        <p class="fs-6">Get the latest job alerts, career tips, and company news right in your inbox.</p>
         <form class="d-flex">
-          <input type="email" class="form-control me-2" placeholder="Your email">
+          <input type="email" class="form-control me-2" placeholder="Enter your email">
           <button class="btn btn-success" type="submit">Subscribe</button>
         </form>
-        <div class="mt-3">
-          <a href="#" class="text-muted me-3"><i class="bi bi-facebook fs-5 text-success"></i></a>
-          <a href="#" class="text-muted me-3"><i class="bi bi-twitter fs-5 text-success"></i></a>
-          <a href="#" class="text-muted me-3"><i class="bi bi-linkedin fs-5 text-success"></i></a>
-          <a href="#" class="text-muted"><i class="bi bi-instagram fs-5 text-success"></i></a>
-        </div>
       </div>
 
     </div>
 
-    <hr class="my-4">
+    <hr class="my-4 border-light">
 
-    <div class="text-center small text-muted">
+    <div class="text-center small text-white-50">
       &copy; 2025 HappyJobs. All rights reserved.
     </div>
   </div>
 </footer>
+
 
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">

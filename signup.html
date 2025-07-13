@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sign Up</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!--------------------Main container------------------------------>
+  <div class="container d-flex justify-content-center align-items-center min-vh-100">
+    
+    <!--------------------Sign Up container------------------------------>
+    <div class="row border rounded-5 p-3 bg-white shadow box-area">
+
+      <!-- Left box (Sign-Up Form) -->
+      <div class="col-md-6 py-4 px-4">
+        <div class="row align-items-center">
+          <div class="header-text mb-4">
+            <h2 class="text-success fw-bold">Create Account</h2>
+            <p class="fw-semi-bold">Join our community today</p>
+          </div>
+
+          <div class="input-group mb-3">
+           <span class="input-group-text bg-light">
+          <i class="bi bi-person-fill text-success"></i>
+          </span>
+          <input type="text" class="form-control form-control-lg bg-light fs-6" placeholder="Name">
+          </div>
+
+          <div class="input-group mb-3">
+          <span class="input-group-text bg-light">
+          <i class="bi bi-envelope-fill text-success"></i>
+          </span>
+          <input type="email" class="form-control form-control-lg bg-light fs-6" placeholder="Email">
+          </div>
+
+          <div class="input-group mb-3">
+         <span class="input-group-text bg-light">
+         <i class="bi bi-lock-fill text-success"></i>
+         </span>
+        <input type="password" class="form-control form-control-lg bg-light fs-6" placeholder="Password">
+        </div>
+
+          <div class="input-group mb-3">
+            <input type="password" class="form-control form-control-lg bg-light fs-6" placeholder="Confirm Password" />
+          </div>
+
+          <div class="input-group mb-3">
+            <button class="btn btn-lg btn-success w-100 fs-6">Sign Up</button>
+          </div>
+
+          <div class="input-group mb-3">
+            <button class="btn btn-lg btn-light w-100 fs-6">
+              <img src="img/google-logo.png" style="width: 20px;" class="me-2" />
+              <small>Sign up with Google</small>
+            </button>
+          </div>
+
+          <div class="row">
+            <small>Already have an account? <a href="login.html" class="fw-bold text-success text-decoration-none">Login</a>
+          </small>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right box (Image) -->
+      <div class="col-md-6 py-4 rounded-4 d-flex justify-content-center align-items-center flex-column" style="background: #1f4a40">
+        <div class="signup-image mb-3">
+          <img src="img/signup-icon.png" class="img-fluid" alt="Sign up" style="width: 350px;" />
+        </div>
+        <p class="text-white fs-2">Get Started</p>
+        <small class="text-white text-wrap text-center" style="width: 17rem;">Create your account and find your dream job</small>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

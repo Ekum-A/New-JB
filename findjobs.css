@@ -63,3 +63,21 @@
 .card{
   background-color: #f8fbf9;
 }
+
+.footer-links li {
+  list-style-type: disc;        
+  margin-left: 1rem;           
+  color: white;                
+}
+
+.footer-links a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.footer-links a:hover {
+  transform: translateX(4px) scale(1.05);
+  color: #1f4a40; /* Your green or theme color */
+}
